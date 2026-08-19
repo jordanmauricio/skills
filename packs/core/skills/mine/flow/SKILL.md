@@ -5,8 +5,8 @@ description: Route a task to the right skill in this set. Use at the start of a 
 
 # Flow
 
-This set has one spine and two side loops. Find where the work sits, apply that skill,
-and stop — do not run the whole chain because it exists.
+This set has a spine, a set of side loops, and breadth checks. Find where the work sits,
+apply that skill, and stop — do not run the whole chain because it exists.
 
 ## The spine
 
@@ -61,5 +61,5 @@ These hold across every skill in the set.
 
 ## First run in a repo
 
-`to-spec`, `to-tickets` and `triage` need to know where issues live. If they report no
+`to-spec` and `to-tickets` need to know where issues live. If they report no
 issue tracker configured, apply `setup-matt-pocock-skills` once for that repo.
