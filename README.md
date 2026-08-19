@@ -11,15 +11,21 @@ Plan of record: [`dotfiles/docs/skills.md`](https://github.com/jordanmauricio/do
 ## Install
 
 ```bash
-# every agent, global, symlinked to this tree
-npx skills@latest add jordanmauricio/skills --all -g -a claude-code -a codex
+# global, Claude Code + Codex only
+npx skills@latest add jordanmauricio/skills -s '*' -a claude-code -a codex -g -y
 
 # Claude-native: namespacing, subagents, eval, token accounting
 claude plugin marketplace add jordanmauricio/skills --scope user
 claude plugin install jordan-core@jordan
 ```
 
-`-a` must be repeated; comma-separated values are rejected.
+`-a` must be repeated; comma-separated values are rejected. **Do not use `--all`** — it is
+shorthand for `--skill '*' --agent '*'` and silently overrides `-a`, installing into ~50
+agent directories in `$HOME`.
+
+Skills land as real copies in `~/.agents/skills/`, with `~/.claude/skills/*` symlinked to
+them. That copy — not this repo — is what the agents read, so re-run the command (or
+`npx skills update -g`) after changing anything here.
 
 ## Layout
 
