@@ -1,0 +1,46 @@
+# Pinned upstream skills. Edit this file, then run scripts/sync-vendor.sh.
+#
+# THE FORK RULE: never hand-edit anything under packs/*/skills/vendor/. It is
+# machine-written and clobbered on every sync. To change a vendored skill, move
+# it to skills/mine/, rename it, and delete its line here.
+#
+# Parsed by awk, so the shape is strict:
+#   - two-space indent per level, no tabs, no inline comments on data lines
+#   - each source is `- from:` then `ref:`, `pack:`, then `skills:` / `agents:` lists
+
+sources:
+  - from: mattpocock/skills
+    ref: v1.2.3
+    pack: core
+    skills:
+      - skills/engineering/grill-with-docs
+      - skills/engineering/domain-modeling
+      - skills/engineering/codebase-design
+      - skills/engineering/to-spec
+      - skills/engineering/to-tickets
+      - skills/engineering/implement
+      - skills/engineering/tdd
+      - skills/engineering/code-review
+      - skills/engineering/diagnosing-bugs
+      - skills/engineering/prototype
+      - skills/engineering/research
+      - skills/engineering/resolving-merge-conflicts
+      - skills/engineering/setup-matt-pocock-skills
+      - skills/productivity/grilling
+      - skills/productivity/handoff
+      - skills/productivity/writing-for-agents
+
+  - from: addyosmani/agent-skills
+    ref: 0.6.7
+    pack: core
+    skills:
+      - skills/security-and-hardening
+      - skills/performance-optimization
+      - skills/ci-cd-and-automation
+      - skills/shipping-and-launch
+      - skills/api-and-interface-design
+      - skills/deprecation-and-migration
+    agents:
+      - agents/code-reviewer.md
+      - agents/security-auditor.md
+      - agents/test-engineer.md

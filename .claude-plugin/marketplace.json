@@ -1,0 +1,14 @@
+{
+  "name": "jordan",
+  "owner": { "name": "Jordan", "url": "https://github.com/jordanmauricio" },
+  "description": "Jordan's curated agent skills: own work plus pinned copies from upstream sets.",
+  "plugins": [
+    {
+      "name": "jordan-core",
+      "source": "./packs/core",
+      "description": "Always-on engineering skills: grilling, spec/ticket flow, TDD, review, plus security/perf/ship breadth.",
+      "category": "engineering",
+      "keywords": ["engineering", "skills", "tdd", "code-review", "grilling"]
+    }
+  ]
+}

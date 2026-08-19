@@ -1,0 +1,4 @@
+source: addyosmani/agent-skills
+ref: 0.6.7
+commit: df1edb2
+path: skills/ci-cd-and-automation

@@ -1,0 +1,34 @@
+{
+  "name": "jordan-core",
+  "version": "0.1.0",
+  "description": "Curated engineering skills: grilling, spec/ticket flow, TDD, review, plus security/perf/ship breadth.",
+  "author": {
+    "name": "Jordan"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/mine/flow",
+    "./skills/vendor/api-and-interface-design",
+    "./skills/vendor/ci-cd-and-automation",
+    "./skills/vendor/code-review",
+    "./skills/vendor/codebase-design",
+    "./skills/vendor/deprecation-and-migration",
+    "./skills/vendor/diagnosing-bugs",
+    "./skills/vendor/domain-modeling",
+    "./skills/vendor/grill-with-docs",
+    "./skills/vendor/grilling",
+    "./skills/vendor/handoff",
+    "./skills/vendor/implement",
+    "./skills/vendor/performance-optimization",
+    "./skills/vendor/prototype",
+    "./skills/vendor/research",
+    "./skills/vendor/resolving-merge-conflicts",
+    "./skills/vendor/security-and-hardening",
+    "./skills/vendor/setup-matt-pocock-skills",
+    "./skills/vendor/shipping-and-launch",
+    "./skills/vendor/tdd",
+    "./skills/vendor/to-spec",
+    "./skills/vendor/to-tickets",
+    "./skills/vendor/writing-for-agents"
+  ]
+}
