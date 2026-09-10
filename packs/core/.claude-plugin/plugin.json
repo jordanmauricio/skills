@@ -8,6 +8,7 @@
   "license": "MIT",
   "skills": [
     "./skills/mine/flow",
+    "./skills/mine/web-perf-audit",
     "./skills/vendor/api-and-interface-design",
     "./skills/vendor/ci-cd-and-automation",
     "./skills/vendor/code-review",

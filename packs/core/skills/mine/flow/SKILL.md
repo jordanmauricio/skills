@@ -28,7 +28,8 @@ Most work does not need the whole spine. A one-file fix needs none of it.
 
 | Situation | Apply |
 |---|---|
-| Something is broken, slow, or behaving unexpectedly | `diagnosing-bugs`, then `tdd` |
+| Something is broken or behaving unexpectedly | `diagnosing-bugs`, then `tdd` |
+| A page loads slowly, or a Core Web Vital needs explaining or moving | `web-perf-audit` |
 | Writing or changing behaviour | `tdd` |
 | "How should this look / behave" cannot be settled by talking | `prototype` |
 | A fact outside this repo is blocking a decision | `research` |
