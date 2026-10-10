@@ -11,6 +11,7 @@
     "./skills/mine/web-perf-audit",
     "./skills/vendor/api-and-interface-design",
     "./skills/vendor/ci-cd-and-automation",
+    "./skills/vendor/cloudflare",
     "./skills/vendor/code-review",
     "./skills/vendor/codebase-design",
     "./skills/vendor/deprecation-and-migration",
@@ -30,6 +31,8 @@
     "./skills/vendor/tdd",
     "./skills/vendor/to-spec",
     "./skills/vendor/to-tickets",
+    "./skills/vendor/workers-best-practices",
+    "./skills/vendor/wrangler",
     "./skills/vendor/writing-for-agents"
   ]
 }

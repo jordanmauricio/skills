@@ -44,3 +44,11 @@ sources:
       - agents/code-reviewer.md
       - agents/security-auditor.md
       - agents/test-engineer.md
+
+  - from: cloudflare/skills
+    ref: c430dd965cea3a8faf0ef035e3b3d73b38518081
+    pack: core
+    skills:
+      - skills/cloudflare
+      - skills/wrangler
+      - skills/workers-best-practices
