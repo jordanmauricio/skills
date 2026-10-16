@@ -52,3 +52,22 @@ sources:
       - skills/cloudflare
       - skills/wrangler
       - skills/workers-best-practices
+
+  - from: emilkowalski/skills
+    ref: 2d228630ba1446365f614a108cb8252f1feda202
+    pack: core
+    skills:
+      - skills/emil-design-eng
+      - skills/animate
+      - skills/animate-expo
+      - skills/animation-performance
+      - skills/animation-vocabulary
+      - skills/find-animation-opportunities
+      - skills/improve-animations
+      - skills/review-animations
+      - skills/apple-design
+      - skills/mobile-native
+      - skills/write-swift
+      - skills/break-ui
+      - skills/pick-ui-library
+      - skills/ask-sonner
