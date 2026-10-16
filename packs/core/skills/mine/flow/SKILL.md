@@ -39,6 +39,27 @@ Most work does not need the whole spine. A one-file fix needs none of it.
 | The session has outgrown itself | `handoff` |
 | Writing a skill, `AGENTS.md`, or `CLAUDE.md` | `writing-for-agents` |
 
+## UI and motion
+
+For interface work. `emil-design-eng` is the taste behind the rest: apply it when
+judging polish, not as a step.
+
+| Situation | Apply |
+|---|---|
+| Building an animation or transition on the web | `animate` |
+| Building one in React Native / Expo | `animate-expo` |
+| Gestures, springs, sheets, materials, Apple-style feel | `apple-design` |
+| An animation drops frames, or choosing which property to animate | `animation-performance` |
+| Reviewing motion in a diff | `review-animations` |
+| A roadmap of motion fixes across a whole codebase | `improve-animations` |
+| Asking where motion is missing | `find-animation-opportunities` |
+| A motion effect needs its name | `animation-vocabulary` |
+| A component needs stress-testing with worst-case data | `break-ui` |
+| A web app feels wrong on a phone | `mobile-native` |
+| Choosing a frontend library for a task | `pick-ui-library` |
+| Working with Sonner toasts | `ask-sonner` |
+| Writing or reviewing Swift | `write-swift` |
+
 ## Breadth checks
 
 Reach for these when the work touches their area, not on every task:
