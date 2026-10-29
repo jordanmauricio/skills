@@ -8,6 +8,7 @@
   "license": "MIT",
   "skills": [
     "./skills/mine/flow",
+    "./skills/mine/spike-triage",
     "./skills/mine/web-perf-audit",
     "./skills/vendor/animate",
     "./skills/vendor/animate-expo",

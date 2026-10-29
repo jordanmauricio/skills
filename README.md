@@ -37,6 +37,16 @@ packs/core/
 └── agents/                      Claude subagents (do not port to other agents)
 ```
 
+## Mine
+
+| Skill | For |
+|---|---|
+| `flow` | Route a task to the right skill in this set |
+| `web-perf-audit` | A page loads slowly, or a Core Web Vital needs explaining, from a browser trace |
+| `spike-triage` | A production latency or error spike on Google Cloud: find the hop that added the time, and why |
+
+Vendored skills are listed in [`vendor.yaml`](./vendor.yaml).
+
 ## Updating vendored skills
 
 Edit [`vendor.yaml`](./vendor.yaml), bump a `ref`, then:
